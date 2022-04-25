@@ -15,6 +15,9 @@
 		C46AD6A12564859B00950A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46AD69F2564859B00950A28 /* LaunchScreen.storyboard */; };
 		C46AD6AC2564859B00950A28 /* goya0016_assignment_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AD6AB2564859B00950A28 /* goya0016_assignment_3Tests.swift */; };
 		C46AD6B72564859B00950A28 /* goya0016_assignment_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AD6B62564859B00950A28 /* goya0016_assignment_3UITests.swift */; };
+		C46AD6C8256486D400950A28 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AD6C7256486D400950A28 /* SecondPageViewController.swift */; };
+		C46AD6CD256486EC00950A28 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AD6CC256486EC00950A28 /* ThirdPageViewController.swift */; };
+		C46AD6D52564879D00950A28 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46AD6D42564879D00950A28 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C46AD6B22564859B00950A28 /* goya0016_assignment-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goya0016_assignment-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C46AD6B62564859B00950A28 /* goya0016_assignment_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goya0016_assignment_3UITests.swift; sourceTree = "<group>"; };
 		C46AD6B82564859B00950A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46AD6C7256486D400950A28 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
+		C46AD6CC256486EC00950A28 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
+		C46AD6D42564879D00950A28 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				C46AD6942564859A00950A28 /* AppDelegate.swift */,
 				C46AD6962564859A00950A28 /* SceneDelegate.swift */,
-				C46AD6982564859A00950A28 /* ViewController.swift */,
 				C46AD69A2564859A00950A28 /* Main.storyboard */,
 				C46AD69D2564859B00950A28 /* Assets.xcassets */,
 				C46AD69F2564859B00950A28 /* LaunchScreen.storyboard */,
 				C46AD6A22564859B00950A28 /* Info.plist */,
+				C46AD6982564859A00950A28 /* ViewController.swift */,
+				C46AD6C7256486D400950A28 /* SecondPageViewController.swift */,
+				C46AD6CC256486EC00950A28 /* ThirdPageViewController.swift */,
+				C46AD6D42564879D00950A28 /* Page.swift */,
 			);
 			path = "goya0016_assignment-3";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C46AD6992564859A00950A28 /* ViewController.swift in Sources */,
+				C46AD6C8256486D400950A28 /* SecondPageViewController.swift in Sources */,
+				C46AD6D52564879D00950A28 /* Page.swift in Sources */,
 				C46AD6952564859A00950A28 /* AppDelegate.swift in Sources */,
 				C46AD6972564859A00950A28 /* SceneDelegate.swift in Sources */,
+				C46AD6CD256486EC00950A28 /* ThirdPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
